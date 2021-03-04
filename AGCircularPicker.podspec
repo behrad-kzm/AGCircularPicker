@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGCircularPicker'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'AGCircularPicker is helpful for creating a controller aimed to manage any calculated parameter'
 
 # This description is used to generate tags and improve search results.
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/agilie/AGCircularPicker.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'savilov' => 'sergii.avilov@agilie.com' }
-  s.source           = { :git => 'https://github.com/agilie/AGCircularPicker.git', :tag => s.version.to_s }
+  s.author           = { 'savilov' => 'sergii.avilov@agilie.com', 'Behrad-kzm' => 'behrad.kzm@gmail.com' }
+  s.source           = { :git => 'https://github.com/behrad-kzm/AGCircularPicker', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.2'
+  s.ios.deployment_target = '13.1'
 
   s.source_files = 'AGCircularPicker/Classes/**/*'
   
